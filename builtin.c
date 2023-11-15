@@ -11,7 +11,7 @@ int _myexit(info_t *info)
 {
 	int exitcheck;
 
-	if (info->argv[1])  /* If there is an exit arguement */
+	if (info->argv[1])  
 	{
 		exitcheck = _erratoi(info->argv[1]);
 		if (exitcheck == -1)
@@ -94,4 +94,4 @@ int _myhelp(info_t *info)
 	if (0)
 		_puts(*arg_array)
 	return (0);
-}
+i}
